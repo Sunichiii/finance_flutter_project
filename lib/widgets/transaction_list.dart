@@ -55,11 +55,11 @@ class TransactionList extends StatelessWidget {
             const ListTile(
               leading: CircleAvatar(
                 backgroundColor: Color.fromARGB(255, 239, 243 , 245),
-                child: Icon(Icons.fitness_center,color: Colors.purpleAccent,),
+                child: Icon(Icons.car_rental,color: Colors.purpleAccent,),
               ),
-              title: Text("Gym"),
+              title: Text("Rental Car"),
               subtitle: Text("Payment"),
-              trailing: Text("-\$45.99", style: TextStyle(color: Colors.red),),
+              trailing: Text("-\$485.99", style: TextStyle(color: Colors.red),),
             ),
           ],
         ));
